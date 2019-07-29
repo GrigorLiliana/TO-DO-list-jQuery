@@ -1,0 +1,126 @@
+h1,
+label,
+form {
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+.done {
+  text-decoration: line-through;
+}
+li {
+  list-style: none;
+}
+header,
+main {
+  background: rgba(252, 236, 252, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(252, 236, 252, 1) 17%,
+    rgba(251, 166, 225, 1) 45%,
+    rgba(247, 168, 222, 1) 65%,
+    rgba(240, 214, 233, 1) 90%,
+    rgba(240, 214, 233, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(252, 236, 252, 1)),
+    color-stop(17%, rgba(252, 236, 252, 1)),
+    color-stop(45%, rgba(251, 166, 225, 1)),
+    color-stop(65%, rgba(247, 168, 222, 1)),
+    color-stop(90%, rgba(240, 214, 233, 1)),
+    color-stop(100%, rgba(240, 214, 233, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(252, 236, 252, 1) 17%,
+    rgba(251, 166, 225, 1) 45%,
+    rgba(247, 168, 222, 1) 65%,
+    rgba(240, 214, 233, 1) 90%,
+    rgba(240, 214, 233, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(252, 236, 252, 1) 17%,
+    rgba(251, 166, 225, 1) 45%,
+    rgba(247, 168, 222, 1) 65%,
+    rgba(240, 214, 233, 1) 90%,
+    rgba(240, 214, 233, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(252, 236, 252, 1) 17%,
+    rgba(251, 166, 225, 1) 45%,
+    rgba(247, 168, 222, 1) 65%,
+    rgba(240, 214, 233, 1) 90%,
+    rgba(240, 214, 233, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(252, 236, 252, 1) 0%,
+    rgba(252, 236, 252, 1) 17%,
+    rgba(251, 166, 225, 1) 45%,
+    rgba(247, 168, 222, 1) 65%,
+    rgba(240, 214, 233, 1) 90%,
+    rgba(240, 214, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#f0d6e9', GradientType=1 );
+  background-repeat: no-repeat;
+}
+
+header {
+  border-radius: 5px 5px 45% 45%;
+  margin: auto;
+  padding: 1rem 1rem;
+  width: 250px;
+}
+.moon {
+  background-color: white;
+  border-radius: 0 0 50% 50%;
+  margin: auto;
+  padding: 1rem;
+}
+main {
+  width: 250px;
+  margin: auto;
+
+  border-radius: 5px 5px 5% 5%;
+}
+label {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 2rem;
+}
+label + input {
+  border-radius: 5px;
+  display: block;
+  margin: 0.5rem auto;
+  text-align: center;
+  padding: 0.5rem;
+}
+input[type="submit"] {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.2rem 2rem;
+  margin-bottom: 2rem;
+}
+form {
+  border-radius: 5px 5px 45% 45%;
+}
+ul {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  li {
+    //border-top: 1px solid lightpink;
+    border-bottom: 1px solid lightpink;
+    margin: 0.5rem;
+  }
+}

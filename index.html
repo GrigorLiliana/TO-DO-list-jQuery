@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List Project</title>
+    <!-- My style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To do List</h1>
+    </header>
+
+    <main>
+      <div class="moon"></div>
+      <ul id="list">
+        <li class="task none">
+          <input type="checkbox" name="check" class="listInput" checked />
+          <span></span>
+        </li>
+      </ul>
+
+      <div class="moon"></div>
+
+      <form action="action.php" method="get">
+        <label for="addTask">Add New Item</label>
+        <input
+          type="text"
+          name="addTask"
+          id="addNewItem"
+          placeholder="What you need to do?"
+        />
+        <input type="submit" value="Add" />
+      </form>
+    </main>
+
+    <!-- CDN jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!--My script-->
+    <script src="script.js"></script>
+  </body>
+</html>
